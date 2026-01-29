@@ -1,0 +1,45 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+
+:root {
+    --font-padrao: font-family: "Passion One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    --cor1: 9CAFB7;
+    --cor2: F7DBA7;
+    --cor3: 007FFF;
+
+}
+body{
+    background-color: rgba(0, 0, 0, 0.356);
+}
+
+h1 {
+    font-family: var(--font-padrao);
+    background-color: rgb(98, 0, 255);
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: 4em;
+}
+
+p {
+    background-color: rgb(171, 201, 247);
+    margin: 20px;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+a:hover {
+    background-color: var(--cor3);
+    text-decoration: underline;
+}
